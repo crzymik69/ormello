@@ -1,0 +1,29 @@
+{
+  "name": "ormello",
+  "version": "0.0.1",
+  "description": "Lightweight ORM for NodeJS and Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crzymik69/ormello.git"
+  },
+  "keywords": [
+    "orm",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Michael Ramaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crzymik69/ormello/issues"
+  },
+  "homepage": "https://github.com/crzymik69/ormello#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-typescript": "^0.8.0",
+    "typescript": "^2.5.2"
+  }
+}
