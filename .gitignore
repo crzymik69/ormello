@@ -1,5 +1,19 @@
 # Created by .ignore support plugin (hsz.mobi)
 
+### Customizations
+
+# Not saving documentation to git at the moment
+docs
+
+# Not saving generated files from ts at the moment
+src/*.js
+src/*.js.map
+src/*.d.ts
+
+test/*.js
+test/*.js.map
+test/*.d.ts
+
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -100,26 +114,6 @@ bower_components/
 
 build/
 dist/
-
-### GitBook template
-
-# Node rules:
-
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
-
-# Book build output
-_book
-
-# eBook build output
-*.epub
-*.mobi
-*.pdf
 
 ### macOS template
 
